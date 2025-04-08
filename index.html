@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flip Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Coin Flip Game</h1>
+      
+        <section id="output">
+            <h2>Game Result</h2>
+            <p>You predicted: <span id="player-pick"></span></p>
+            <img id="player-image" src="" alt="Player's Choice" width="100">
+            <p>The flip came up: <span id="flip-result"></span></p>
+            <img id="flip-image" src="" alt="Coin Flip Result" width="100">
+            <p>That's a <span id="game-result"></span>.</p>
+
+            <button id="heads">
+                <img src="coin_flip/heads.svg" alt="Heads coin side" width="50">
+                Heads
+            </button>
+            <button id="tails">
+                <img src="coin_flip/tails.svg" alt="Tails coin side" width="50">
+                Tails
+            </button>
+        </section>
+        
+        <section id="scoreboard">
+            <h2>Scoreboard</h2>
+            <p>You've played <span id="count">0</span> games.</p>
+            <p>You have <span id="wins">0</span> wins and <span id="losses">0</span> losses.</p>
+            <button id="reset">Reset Score</button>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
